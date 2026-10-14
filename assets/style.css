@@ -168,3 +168,58 @@ footer .logo-l{filter:brightness(0) invert(1)}
  footer .row{flex-direction:column;align-items:flex-start}
 }
 .thead .tb{font-size:12px;color:var(--muted)}
+
+/* report */
+.lchip{display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;background:var(--chip);border:0;border-radius:8px;padding:4px 9px;cursor:pointer;margin:0 2px}
+.lchip:hover{background:#d3e2ec}
+.lchip .lk{width:14px;height:14px}
+[data-lock]{cursor:pointer}
+.rt{padding:24px 0 8px}.crumb{color:var(--muted);font-weight:500;font-size:14px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:14px}
+.pill2{background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px 10px;font-weight:600;font-size:11px;color:var(--ink)}
+.rt h1{font-size:64px;line-height:1.05;margin-bottom:14px}.rt .lead{max-width:760px}
+.rs{padding:36px 0}.rs h2{font-size:30px;line-height:1.15;margin-bottom:20px}
+.sumcard{flex-direction:row;align-items:center;gap:40px;padding:32px;border-top:4px solid var(--ink)}
+.ringw{display:flex;flex-direction:column;align-items:center;gap:8px;font-size:12px;font-weight:500;color:var(--muted);flex:none}
+.lines{display:flex;flex-direction:column;gap:14px;font-size:18px;line-height:1.5}.lines b{font-weight:600}.sm{font-size:13px;color:var(--muted)}
+.kcard{background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden}
+.strip{display:grid;grid-template-columns:repeat(5,1fr);border-bottom:1px solid var(--line);overflow-x:auto}
+.tab{background:#fff;border:0;border-right:1px solid var(--line);padding:16px 18px 0;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:6px;min-width:138px;font:inherit;color:var(--muted);position:relative}
+.tab:last-child{border-right:0}.tab .tn{font-weight:500;font-size:13px}.tab b{font:700 20px/1.1 "Bricolage Grotesque",sans-serif;min-height:24px}
+.tab .lk{width:16px;height:16px;margin:4px 0 4px}.tab .tb{display:block;height:3px;background:var(--chip);margin:8px -18px 0}
+.tab.on{background:#F4F8FB;color:var(--ink)}.tab.on .tb{background:var(--accent)}
+.kbody{padding:24px 28px 28px;display:flex;flex-direction:column;gap:16px}.kt{font-weight:600}
+.segs{display:inline-flex;background:var(--bg);border-radius:10px;padding:3px;gap:4px;align-self:flex-start}
+.sg{border:0;background:transparent;padding:7px 14px;border-radius:8px;font:600 13px "Instrument Sans",sans-serif;color:var(--muted);display:inline-flex;align-items:center;gap:6px;cursor:pointer}
+.sg.on{background:#fff;color:var(--ink)}
+.bars{display:grid;grid-template-columns:repeat(6,1fr);align-items:end;gap:10px;height:230px;max-width:760px}
+.bar{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:6px;height:100%}
+.bar i{display:block;width:min(64px,100%);border-radius:10px}.bl{font:600 11px "Instrument Sans",sans-serif;text-align:center}.bm{font-weight:500;font-size:13px;color:var(--muted)}
+.rhead{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:20px}.rhead h2{margin:0}
+.paid{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:var(--on-accent);font-weight:600;font-size:12px;border-radius:999px;padding:6px 12px}
+.hmap{flex-direction:row;gap:32px;padding:24px;align-items:stretch}.hm{position:relative;flex:1;min-height:360px;border-radius:14px;overflow:hidden;background:var(--bg)}
+.blur{filter:blur(6px);pointer-events:none;user-select:none}.fmap{width:100%;height:100%;display:block}
+.unl{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px;box-shadow:0 10px 28px rgba(15,26,46,.16);width:min(340px,86%)}
+.unl h3{font-size:20px}.unl p{font-size:14px;color:var(--muted)}
+.dist{width:300px;display:flex;flex-direction:column;gap:12px;flex:none}.dist h3{font-size:18px}
+.drow{display:flex;align-items:center;gap:10px;font-weight:500;font-size:14px}.drow span{flex:1}.sq{width:16px;height:16px;border-radius:5px;display:inline-block;flex:none}
+.lrow{display:flex;align-items:center;gap:8px;font-weight:500;font-size:14px}
+.mxc{position:relative;padding:0;overflow:hidden;min-height:440px}.mxg{padding:20px 24px}
+.mh{display:grid;grid-template-columns:70px repeat(6,1fr);gap:6px;font:600 11px "Instrument Sans",sans-serif;color:var(--muted);margin-bottom:6px;padding-left:0}
+.mr{display:grid;grid-template-columns:70px repeat(6,1fr);gap:6px;margin-bottom:6px;align-items:center;font-size:11px;color:var(--muted)}.mr i{display:block;height:18px;border-radius:4px}
+.mxc .unl.abs{position:absolute}
+.cta{background:var(--navy);border-radius:24px;padding:48px;color:#EAF0FA;display:flex;flex-direction:column;gap:14px}
+.cta h2{font-size:36px;color:#EAF0FA;margin:0}.cta p{color:#B9C6D6;font-size:17px;max-width:640px}
+.ctab{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}.btn-o2{border-color:#B9C6D6;color:#fff}.btn-o2:hover{background:rgba(255,255,255,.08)}
+.dlg{border:0;border-radius:20px;padding:0;max-width:420px;width:calc(100% - 32px);box-shadow:0 20px 60px rgba(15,26,46,.35)}
+.dlg::backdrop{background:rgba(15,27,45,.55)}
+.dlgc{padding:32px 28px 28px;display:flex;flex-direction:column;gap:10px;align-items:center;text-align:center;position:relative}
+.dlgc h3{font-size:22px}.dlgc p{color:var(--muted);font-size:15px;line-height:1.5}.dbtns{display:flex;gap:10px;margin-top:10px;flex-wrap:wrap;justify-content:center}
+.dx{position:absolute;right:12px;top:8px;border:0;background:transparent;font-size:28px;line-height:1;cursor:pointer;color:var(--muted)}
+.dic{width:56px;height:56px;border-radius:50%;background:var(--chip);display:grid;place-items:center}
+@media(max-width:860px){
+ .rt h1{font-size:38px}.rs{padding:24px 0}.rs h2{font-size:22px}
+ .sumcard{flex-direction:column;align-items:stretch;gap:18px;padding:20px}.ringw{align-self:center}.lines{font-size:15px}
+ .strip{display:flex}.tab{flex:none;min-width:138px}.kbody{padding:16px 16px 20px}.bars{height:210px;gap:6px}
+ .hmap{flex-direction:column;padding:16px;gap:18px}.hm{min-height:300px}.dist{width:auto}
+ .mxc{min-height:380px}.cta{padding:26px 22px}.cta h2{font-size:24px}.ctab .btn{width:100%}
+}
